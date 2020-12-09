@@ -1,0 +1,26 @@
+{
+  "name": "tgkbot",
+  "version": "1.0.0",
+  "description": "TGK Discord bot.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "test",
+    "start": "node ./bot.js"
+  },
+  "author": "Andrew Hansen",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.3.1",
+    "enmap": "^5.7.1",
+    "espn-fantasy-football-api": "^0.16.0",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.7",
+    "giphy-api": "^2.0.1",
+    "google-it": "^1.5.4",
+    "imdb-api": "^4.4.1",
+    "node-fetch": "^2.6.1",
+    "simple-youtube-api": "^5.2.1",
+    "yahoo-finance": "^0.3.6"
+  }
+}
